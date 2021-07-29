@@ -12,7 +12,7 @@ categories:
 AWS IoT에서는 다양한 IoT 디바이스를 등록, 관리할 수 있습니다. 디바이스와의 통신을 통해 AWS의 다른 서비스와 연결할 수도 있습니다. 
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127452730-ce3ee834-2f22-44cb-bb25-96c003ea272a.png" alt = "AWS IoT 설명">
+  <img src = "https://user-images.githubusercontent.com/74483608/127452730-ce3ee834-2f22-44cb-bb25-96c003ea272a.png" alt = "AWS IoT 설명"> <br/>
   출처: AWS IoT 튜토리얼
 </p>
 
@@ -133,9 +133,9 @@ python3 pubsub.py --topic topic_1 --root-ca ~/certs/Amazon-root-CA-1.pem --cert 
 ### 결과
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127453019-a78e0dfe-fd16-43ad-92f3-7a52337ba06b.png" alt = "예제 결과">
+  <img src = "https://user-images.githubusercontent.com/74483608/127453019-a78e0dfe-fd16-43ad-92f3-7a52337ba06b.png" alt = "예제 결과"> <br/>
   예제 결과
-</>
+</p>
 
 
 MQTT를 통해 메시지를 송수신하는 결과입니다. `ctrl + c` 를 이용하면 프로그램을 중지할 수 있습니다. 이를 통해 SDK가 잘 설치되었다는 걸 예제를 통해 확인할 수 있었습니다.  
