@@ -9,7 +9,7 @@ toc_sticky: true
 ---
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74483608/127412734-299451a3-198f-465f-901a-3b3cf7cca32d.png">
+  <img src="https://user-images.githubusercontent.com/74483608/127412734-299451a3-198f-465f-901a-3b3cf7cca32d.png"> <br/>
   출처: https://numenta.com/
 </p>
 
@@ -38,7 +38,7 @@ If you are trying to install htm.core using your Anaconda virtual environment, f
     -   참고로 python 3.7 이상 버전에서 nupic을 설치하려고 할 때 아래와 같은 오류가 발생합니다.(시키는 대로 unittest2 버전을 맞춰서 설치해도 해결되지 않습니다.)python 3.8.10 version에서 nupic 설치 시 오류을 통해 nupic을 설치할 수 있습니다. 자세한 사항은 [nupic 깃 허브](https://github.com/numenta/nupic)를 통해 확인해주세요.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127412924-58471501-c515-4a15-8f9b-b95b249d197b.png" alt = "nupic install failed">
+  <img src = "https://user-images.githubusercontent.com/74483608/127412924-58471501-c515-4a15-8f9b-b95b249d197b.png" alt = "nupic install failed"> <br/>
   nupic install 실패
 </p>
 
@@ -100,7 +100,7 @@ If you are trying to install htm.core using your Anaconda virtual environment, f
 8.  아주 긴 설치 로그 후에 이와 같이 Setup complete라고 뜨면 일단 설치를 마쳤다고 볼 수 있습니다.(박수!!!!!)
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127413473-f06f183b-ca95-41f6-ab38-e99cd3cf543a.png" alt = "install success">
+  <img src = "https://user-images.githubusercontent.com/74483608/127413473-f06f183b-ca95-41f6-ab38-e99cd3cf543a.png" alt = "install success"> <br/>
   install 성공
 </p>
 
@@ -112,7 +112,7 @@ If you are trying to install htm.core using your Anaconda virtual environment, f
     에서 볼 수 있는 것처럼 일부 문제가 있는 것 같긴 합니다.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127413594-4f15a1d3-8122-492c-b070-ee98bca2fa82.png" alt = "test result">
+  <img src = "https://user-images.githubusercontent.com/74483608/127413594-4f15a1d3-8122-492c-b070-ee98bca2fa82.png" alt = "test result"> <br/>
   테스트 결과
 </p>
     
@@ -120,7 +120,7 @@ If you are trying to install htm.core using your Anaconda virtual environment, f
 10.  설치를 했으니 파이썬에서 import 해 봐야죠? `import htm help(htm)` 을 이용하여 사용여 도움이 될 수 있는 package 정보를 얻을 수 있습니다.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127413707-53572e02-4b52-4711-b222-b24a488b68ff.png" alt = "help htm">
+  <img src = "https://user-images.githubusercontent.com/74483608/127413707-53572e02-4b52-4711-b222-b24a488b68ff.png" alt = "help htm"> <br/>
   help(htm)
 </p>
 
