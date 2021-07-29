@@ -9,7 +9,7 @@ toc_sticky: true
 ---
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127414313-aa55cd92-0002-46c2-a834-b603a8a83ffd.png">
+  <img src = "https://user-images.githubusercontent.com/74483608/127414313-aa55cd92-0002-46c2-a834-b603a8a83ffd.png"> <br/>
   이미지 출처: blog.tensorflow.org
 </p>
 
@@ -45,7 +45,7 @@ toc_sticky: true
     
     
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/74483608/127414432-91aa35ea-1eca-4517-8456-8fa8c4ec05d6.png" alt = "test result">
+  <img src = "https://user-images.githubusercontent.com/74483608/127414432-91aa35ea-1eca-4517-8456-8fa8c4ec05d6.png" alt = "test result"> <br/>
   테스트 결과
 </p>
 
