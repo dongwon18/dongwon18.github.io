@@ -1,8 +1,10 @@
 ---
-title: AWS IoT 시작하기(IAM 생성, 사물 등록, SDK 설치
+title: AWS IoT 시작하기(IAM 생성, 사물 등록, SDK 설치)
+date: 2021-07-29
 categories:
   - Tutorial
   - AWS_IoT
+toc_sticky: true
 ---
 
 안녕하세요. 이번에는 AWS IoT 서비스를 이용하여 IoT 디바이스를 제어하는 프로젝트 중 튜토리얼 부분을 포스팅할 예정입니다. 물론 AWS 자습서에 아주 상세하게 나와있지만 따라 하면서도 설명이 조금 더 필요했던 부분이나 에러가 있었던 부분이 있어서 그 부분도 함께 설명해 볼 예정입니다.
