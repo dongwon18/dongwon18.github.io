@@ -24,6 +24,38 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "Theory" %}
+                        <li><a href="/categories/#theory" class="nav__sub-title" style = "cursor:pointer;">Theory ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "MachineLearning" %}
+                        <li><a href="/categories/#machinelearning" class="nav__sub-title" style = "cursor:pointer;">Machine Learning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "DeepLearning" %}
+                        <li><a href="/categories/#deeplearning" class="nav__sub-title" style = "cursor:pointer;">Deep Learning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "AWS_IoT" %}
+                        <li><a href="/categories/#aws-iot" class="nav__sub-title" style = "cursor:pointer;">AWS IoT ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         </span>   
       </li>
   </ul>
