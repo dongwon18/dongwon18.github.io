@@ -1,7 +1,7 @@
 ---
 title: "Tutorial"
 layout: archive
-permalink: categories/Tutorial
+permalink: categories/#tutorial
 author_profile: true
 sidebar_main: true
 ---
