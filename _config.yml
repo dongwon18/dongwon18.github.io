@@ -298,7 +298,6 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
       author_profile: true
       sidebar_main: true
 
