@@ -141,18 +141,19 @@ SNS에서 이메일 보내기는 매달 1000개가 프리 티어로 제공됩니
    Lambda test 생성
 </p>
 
-    - `새로운 테스트 이벤트 생성` 선택
-    - 이벤트 이름: SampleRuleOutput
-    - 코드 부분에 존재하던 내용 모두 지우고 아래 내용 붙여넣고 `생성` 클릭
+   - `새로운 테스트 이벤트 생성` 선택
+   - 이벤트 이름: SampleRuleOutput
+   - 코드 부분에 존재하던 내용 모두 지우고 아래 내용 붙여넣고 `생성` 클릭
 
-    ```json
+
+   ```json
     {
       "device_id": "32",
       "reported_temperature": 38,
       "max_temperature": 30,
       "notify_topic_arn": "arn:aws:sns:us-east-1:57EXAMPLE833:high_temp_notice"
     }  
-    ```
+   ```
 
 ## Rule 생성
 
