@@ -3,6 +3,7 @@ title: 앙상블 학습(Ensemble training)이란 - 개념과 예시 모델
 date: 2021-07-30
 categories:
   - MachineLearning
+tags:
   - Theory
 --- 
 여러 모델의 예측 결과를 바탕으로 최종적인 예측 결과를 정할 수 있다면 더욱 효과적인 모델이 될 수 있을 겁니다. 다수결의 법칙을 사용하는 거죠. 이런 방식을 실제로도 사용합니다. 바로 앙상블(ensemble) 학습 방식입니다.
