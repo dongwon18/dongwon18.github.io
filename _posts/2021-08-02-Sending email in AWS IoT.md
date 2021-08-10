@@ -3,8 +3,9 @@ title: "AWS IoT에서 특정 조건일 때 메일 보내기"
 excerpt: "AWS Lambda, SNS, AWS IoT Rule로 자동으로 메일 보내기"
 date: 2021-08-02
 categories: 
-  - Tutorial
   - AWS_IoT
+tags:
+  - Tutorial
 ---
 
 안녕하세요. AWS IoT에서 MQTT 프로토콜을 이용하여 디바이스로부터 받은 값을 이메일로 보내는 AWS IoT 자습서 내용을 소개해보려 합니다. 자습서에는 SMS 문자로 보내는 예제가 있었는데 이메일은 프리티어가 제공되기 때문에 이메일로 진행해봤습니다. (SMS는 통신사 규정에 따라 다르게 가격이 책정되더라고요.) 
