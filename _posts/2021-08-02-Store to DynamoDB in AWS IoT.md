@@ -6,6 +6,7 @@ categories:
   - AWS_IoT
 tags:
   - Tutorial
+  - AWS_IoT
 ---
 
 안녕하세요. 이번에는 MQTT 프로토콜을 이용해서 디바이스로부터 받은 값을 AWS IoT Rule을 이용해DynamoDB에 저장하는 예제를 진행해보겠습니다.
