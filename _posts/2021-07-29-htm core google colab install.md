@@ -3,6 +3,7 @@ title: htm.core Google Colab에 설치(Install htm.core to Google Colab)
 date: 2021-07-29
 categories:
   - MachineLearning
+tags:
   - Tutorial
 toc: true
 toc_sticky: true
