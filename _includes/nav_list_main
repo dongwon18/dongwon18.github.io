@@ -52,7 +52,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "SensorMonitoring" %}
-                        <li><a href="/categories/#sensormonitoring" class="nav__sub-title" style = "cursor:pointer;">Sensor Monitoring with AWS IoT ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#sensormonitoring" class="nav__sub-title" style = "cursor:pointer;">Sensor Monitoring <br/> with AWS IoT ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
