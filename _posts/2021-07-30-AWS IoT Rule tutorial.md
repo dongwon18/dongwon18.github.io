@@ -2,8 +2,9 @@
 title: AWS IoT Rule(Rule 개념, Rule 만들기, republish to MQTT 예제)
 date: 2021-07-30
 categories:
-  - Tutorial
   - AWS_IoT
+tags:
+  - Tutorial
 ---
 안녕하세요. 이전 글(AWS 사물 생성, 기기 등록 및 MQTT 통신 확인)에 이어 AWS IoT Rule에 대해 다뤄보겠습니다.  
 
