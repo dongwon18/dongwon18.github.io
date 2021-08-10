@@ -4,6 +4,7 @@ excerpt: "섀도우 개념, AWS IoT 예제 따라하기"
 date: 2021-08-04
 categories: 
   - AWS_IoT
+tags:
   - Tutorial
 ---
 
