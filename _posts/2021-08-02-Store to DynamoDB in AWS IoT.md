@@ -3,8 +3,9 @@ title: "AWS IoT 이용 디바이스 값 DynamoDB에 저장하기"
 excerpt: "AWS IoT, DynamoDB 연결"
 date: 2021-08-02
 categories:
-  - Tutorial
   - AWS_IoT
+tags:
+  - Tutorial
 ---
 
 안녕하세요. 이번에는 MQTT 프로토콜을 이용해서 디바이스로부터 받은 값을 AWS IoT Rule을 이용해DynamoDB에 저장하는 예제를 진행해보겠습니다.
