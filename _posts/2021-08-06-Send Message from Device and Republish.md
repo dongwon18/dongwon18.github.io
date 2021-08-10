@@ -3,10 +3,9 @@ title: "[실습] RPI에서 AWS IoT로 값 보내기(MQTT 통신, 시스템 예�
 excerpt: "RPI에서 MQTT 통신을 통해 메시지 게시 및 AWS IoT 시스템 예약 주제로 재게시하여 shadow에서 확인하기"
 date: 2021-08-06
 categories:
-  - SensorMonitoring
+  - AWS_IoT
 tags:
   - Tutorial
-  - AWS_IoT
 ---
 안녕하세요. 이전까지 AWS IoT 자습서에서 제공하는 예제를 따라하는 **튜토리얼** 이었다면 지금부터는 제가 AWS IoT를 이용해서 라즈베리파이로 테스트베드를 만드는데 필요한 부분을 **직접 실습**해볼 예정입니다.   
 저도 하면서 배운 거라 헤맸던 부분 정리 및 나중에 제가 필요할 때마다 꺼내 볼 느낌으로 진행하려고 합니다.
