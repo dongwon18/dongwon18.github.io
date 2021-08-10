@@ -5,6 +5,7 @@ categories:
   - AWS_IoT
 tags:
   - Tutorial
+  - AWS_IoT
 toc_sticky: true
 ---
 
