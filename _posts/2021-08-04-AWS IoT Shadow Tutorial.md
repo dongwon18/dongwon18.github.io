@@ -6,6 +6,7 @@ categories:
   - AWS_IoT
 tags:
   - Tutorial
+  - AWS_IoT
 ---
 
 안녕하세요. 지금까지 AWS IoT에서 1.  사물 등록 2. Rule, Lambda function 사용해서 특정 상황에서 메일 보내기 3. Rule 이용해서 DynamoDB에 값 저장하기 예제를 진행해왔습니다. 만약 이전 글이 궁금하신 분은 [AWS_IoT 카테고리](https://dongwon18.github.io/categories/#aws-iot)에서 확인하실 수 있습니다.   
