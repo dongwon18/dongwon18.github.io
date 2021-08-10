@@ -2,8 +2,9 @@
 title: AWS IoT 시작하기(IAM 생성, 사물 등록, SDK 설치)
 date: 2021-07-29
 categories:
-  - Tutorial
   - AWS_IoT
+tags:
+  - Tutorial
 toc_sticky: true
 ---
 
