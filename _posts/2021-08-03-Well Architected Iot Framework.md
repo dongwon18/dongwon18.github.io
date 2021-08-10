@@ -3,7 +3,8 @@ title: 좋은 Cloud IoT 구성 방법
 excerpt: Cloud IoT Framework 고려 사항
 date: 2021-08-03
 categories:
-  - AWS_IoT
+  - IoT
+tags:
   - Theory
 ---
 
