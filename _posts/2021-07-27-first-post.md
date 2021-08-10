@@ -1,9 +1,8 @@
 ---
 title: "First posting"
 date: 2021-07-27
-categories: Tutorial
-toc: true
-toc_sticky: true
+tags:
+  - Tutorial
 ---
 # start
 this is the starting page of the blog.
