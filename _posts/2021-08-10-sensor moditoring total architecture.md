@@ -45,9 +45,10 @@ IoT 현장에서 가장 많이 사용될 만한 센서를 골라봤습니다. �
   - 단위: ºC, %
   - library 설치가 필요합니다.
 
-```arduino
+```
 /*
  * test code of DHT22
+ * written in arduino
  */
 #include "DHT.h"
 
@@ -89,9 +90,10 @@ void loop() {
   - 사용하는데 가열이 필요합니다.(3~ 5분)
   - 단위: ppm
 
-```arduino
+```
 /*
  * test code of MQ-3
+ * written in arduino
  */
 int mq3Pin = A5;
 
