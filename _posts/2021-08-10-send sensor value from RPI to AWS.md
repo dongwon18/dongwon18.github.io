@@ -40,6 +40,22 @@ tags:
 # 진행 내용
 
 1. 센서와 라즈베리파이를 하드웨어적으로 연결한다.
+
+<p align = "center">
+  <img src = "/assets/images/RPI GPIO.jpg" alt = "RPI & sensor connection"> <br/>
+  라즈베리파이, 센서 연결  
+</p>
+
+
+|GPIO 번호|기능|
+|:---:|:---:|
+|2|5V 전압|
+|7|GPIO 4(Digital input)|
+|9|GND|
+
+
+
+
 2. 라즈베리파이에 DHT22 센서를 사용하기 위한 라이브러리를 설치한다.
 
     ```arduino
