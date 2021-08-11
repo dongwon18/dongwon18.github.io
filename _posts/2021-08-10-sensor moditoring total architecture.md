@@ -30,7 +30,7 @@ tags:
 <p align = "center">
   <img src = "/assets/images/AWS IoT Architecture (3).png" alt = "total architecture"> <br/>
   전체 아키텍처
-</>
+</p>
 
 프로젝트의 전체 아키텍처를 그려봤습니다. 
 cf) 관련 icon을 찾아서 하나씩 다운 받다가 [AWS 홈페이지](https://aws.amazon.com/ko/architecture/icons/)에 있지 않을까? 하고 찾아보니까 역시 있더라고요. 다양한 프로그램에서 사용할 수 있도록 해놨는데 저는 draw.io를 사용했습니다. 예전부터 flow chart 그릴 때 사용했는데 간편하게 되더라고요.
