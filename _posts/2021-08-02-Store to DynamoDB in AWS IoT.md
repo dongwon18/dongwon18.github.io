@@ -109,7 +109,7 @@ tags:
 
 ## 테스트
 
-이 부분은 이전 포스팅에서 자세히 다뤄서 이번에는 간략하게만 다뤘으니 헷갈리신다면 [이전 포스팅](https://dongwon18.github.io/tutorial/aws_iot/AWS-IoT-Rule-tutorial/)을 참고해주세요.
+이 부분은 이전 포스팅에서 자세히 다뤄서 이번에는 간략하게만 다뤘으니 헷갈리신다면 [이전 포스팅](https://dongwon18.github.io/aws_iot/AWS-IoT-Rule-tutorial/)을 참고해주세요.
 1. `AWS IoT console` → `동작` → `테스트` 선택
 2. `device/+/data` 구독
 3. `device/22/data` 에 아래 내용 작성 및 게시
