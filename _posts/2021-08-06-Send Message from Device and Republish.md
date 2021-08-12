@@ -18,7 +18,7 @@ tags:
 
     > 디바이스가 에러에 의해서 연결이 끊긴다면 정상적으로 `connected` 값을 false로 설정할 수 없습니다. 이럴 경우에는 MQTT Last Will and Testament(LWT)를 이용해서 `connected`의 값을 false로 설정해줘야 한다고 [AWS IoT Core Developer Guide](https://docs.aws.amazon.com/iot/latest/developerguide/device-shadow-comms-app.html#thing-connection)에 명시되어 있습니다. 그러나 AWS IoT Shadow는 LWT로 보낸 메시지는 무시한다고 합니다. 따라서 다른 `topic`으로 LWT 메시지를 받아서 다시 `/shadow/update` 주제로 재게시 하는 방법을 사용하라고 적혀 있어 이 부분을 실습해 볼 예정입니다.
 
-    [좋은 클라우드 IoT 환경 조성](https://dongwon18.github.io/aws_iot/theory/Well-Architected-Iot-Framework/) 글에서도 다뤘듯이 디바이스가 현재 연결 상태인지 확인하는 것은 매우 중요한 일입니다. 따라서 저도 이 기능을 사용해보고자 했습니다. 
+    [좋은 클라우드 IoT 환경 조성](https://dongwon18.github.io/iot/Well-Architected-Iot-Framework/) 글에서도 다뤘듯이 디바이스가 현재 연결 상태인지 확인하는 것은 매우 중요한 일입니다. 따라서 저도 이 기능을 사용해보고자 했습니다. 
     결론부터 말씀드리자면 아직 구현 못했습니다. 디바이스가 꺼지거나 연결이 끊길 때 LWT를 보내야 하는데 그 부분을 어떻게 구현해야 하는지 찾지 못했거든요...
 
 # 사용된 AWS
