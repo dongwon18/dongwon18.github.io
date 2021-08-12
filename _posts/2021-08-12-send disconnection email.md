@@ -99,7 +99,7 @@ tags:
 <script src="[https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js](https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js)"></script> <br/>   
    이렇게 입력하면 `clientInitiatedDisconnect` 가 true 여도 메일을 보냅니다. 사용자가 `ctrl + c` 를 입력해서 연결이 끊기거나 프로그램이 끝나서 연결이 끊기는 경우가 이에 해당합니다. 예상치 못한 연결 끊김이 아닐 때도 포함하는 거죠.  
    테스트 등을 위해서 사용자가 연결을 끊을 때 항상 관리자에게 메일을 보낸다면 매우 귀찮고 어떤 메일이 진짜 끊겨서 온 것인지 알기 어렵겠죠? 그래서 아래와 같이 코드를 작성하면 예상치 못한 연결 끊김일 때만 메일을 송신합니다. 다만 저는 이 rule을 테스트 하기 쉽게 위의 코드대로 진행하겠습니다.
-<script src="[https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js](https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js)"></script>
+<script src="https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js"></script>
 
 2.  작업으로는 `메시지 데이터를 전달하는 Lambda 함수 호출` 선택해서 이전에 만들었던 Lambda 함수를 선택해줍니다.(저는 format-disconnected-notification) 
 
