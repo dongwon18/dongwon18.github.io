@@ -77,17 +77,17 @@ tags:
 2. 함수 상세 페이지로 이동
     - 코드에서 아래와 같이 입력 후 `Deploy`
 
-    <script src="[https://gist.github.com/dongwon18/882e3433a473a2821afeef2404015c7a.js](https://gist.github.com/dongwon18/882e3433a473a2821afeef2404015c7a.js)"></script>
+<script src="[https://gist.github.com/dongwon18/882e3433a473a2821afeef2404015c7a.js](https://gist.github.com/dongwon18/882e3433a473a2821afeef2404015c7a.js)"></script>
 
 3. 테스트 하기
-    - 코드 페이지의 Test ▼ 클릭 → configure test event 선택
+    - 코드 페이지의 <span style="background-color:orange;">Test ▼ </span>클릭 → configure test event 선택
     - 새로운 테스트 이벤트 생성
         - 이벤트 템플릿: Sample
         - 이벤트 이름: (아무거나)
         - 아래와 같이 입력 후 저장
-        <script src="[https://gist.github.com/dongwon18/4ea29d35af94aefbe0d6971b93725e07.js](https://gist.github.com/dongwon18/4ea29d35af94aefbe0d6971b93725e07.js)"></script> <br/>
-        SNS arn은 아까 만든 SNS 주제의 arn 을 넣어주세요.
-    - `Test` 클릭하여 결과 확인  
+<script src="[https://gist.github.com/dongwon18/4ea29d35af94aefbe0d6971b93725e07.js](https://gist.github.com/dongwon18/4ea29d35af94aefbe0d6971b93725e07.js)"></script> <br/>
+   SNS arn은 아까 만든 SNS 주제의 arn 을 넣어주세요.
+   - `Test` 클릭하여 결과 확인  
     (error 가 안 나오면 됩니다.)
 
 ## Rule 만들기
@@ -96,11 +96,10 @@ tags:
     - 이름: disconnection_emial_send
     - 규칙 쿼리 설명문
 
-    <script src="[https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js](https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js)"></script>    
-    이렇게 입력하면 `clientInitiatedDisconnect` 가 true 여도 메일을 보냅니다. 사용자가 `ctrl + c` 를 입력해서 연결이 끊기거나 프로그램이 끝나서 연결이 끊기는 경우가 이에 해당합니다. 예상치 못한 연결 끊김이 아닐 때도 포함하는 거죠.
-
-    테스트 등을 위해서 사용자가 연결을 끊을 때 항상 관리자에게 메일을 보낸다면 매우 귀찮고 어떤 메일이 진짜 끊겨서 온 것인지 알기 어렵겠죠? 그래서 아래와 같이 코드를 작성하면 예상치 못한 연결 끊김일 때만 메일을 송신합니다. 다만 저는 이 rule을 테스트 하기 쉽게 위의 코드대로 진행하겠습니다.
-    <script src="[https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js](https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js)"></script>
+<script src="[https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js](https://gist.github.com/dongwon18/50b90153ec56ce2de5bd35e64315b952.js)"></script> <br/>   
+   이렇게 입력하면 `clientInitiatedDisconnect` 가 true 여도 메일을 보냅니다. 사용자가 `ctrl + c` 를 입력해서 연결이 끊기거나 프로그램이 끝나서 연결이 끊기는 경우가 이에 해당합니다. 예상치 못한 연결 끊김이 아닐 때도 포함하는 거죠.  
+   테스트 등을 위해서 사용자가 연결을 끊을 때 항상 관리자에게 메일을 보낸다면 매우 귀찮고 어떤 메일이 진짜 끊겨서 온 것인지 알기 어렵겠죠? 그래서 아래와 같이 코드를 작성하면 예상치 못한 연결 끊김일 때만 메일을 송신합니다. 다만 저는 이 rule을 테스트 하기 쉽게 위의 코드대로 진행하겠습니다.
+<script src="[https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js](https://gist.github.com/dongwon18/66fa8d4e18caaf6597bf4d4cf0794f87.js)"></script>
 
 2.  작업으로는 `메시지 데이터를 전달하는 Lambda 함수 호출` 선택해서 이전에 만들었던 Lambda 함수를 선택해줍니다.(저는 format-disconnected-notification) 
 
