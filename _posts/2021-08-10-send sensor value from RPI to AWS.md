@@ -139,4 +139,4 @@ cd ~/aws-iot-device-sdk-python-v2/samples
 # 참고
 
 - AWS IoT Development Guide
-- [AWS IoT 카테고리의 글](http://dongwon.github.io/categories/#aws-iot)
+- [AWS IoT 카테고리의 글](http://dongwon18.github.io/categories/#aws-iot)
