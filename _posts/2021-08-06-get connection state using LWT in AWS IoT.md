@@ -344,4 +344,4 @@ AWS IoT에 시스템 예약된 주제를 모아 놓은 페이지입니다. 이�
 awscrt.mqtt.Will 클래스 및 QoS 클래스 사용법에 대해 적혀 있어 코드 작성할 때 참고했습니다.
 - [aws-iot-device-sdk-python-v2 API Document](https://aws.github.io/aws-iot-device-sdk-python-v2/awsiot/mqtt_connection_builder.html)
 awsiot.mqtt_connection_builder의 변수를 확인할 수 있습니다. 역히 코드 작성할 때 참고했습니다.
-- 이전 글: [RPI에서 AWS IoT로 값 보내기](https://dongwon18.github.io/aws_iot/tutorial/Send-Message-from-Device-and-Republish)
+- 이전 글: [RPI에서 AWS IoT로 값 보내기](https://dongwon18.github.io/aws_iot/Send-Message-from-Device-and-Republish)
