@@ -1,7 +1,7 @@
 ---
 title: "Python으로 RPI에서 센서 값 읽어 와 AWS IoT에 전송하기"
 excerpt: "Raspberrypi와 AWS IoT Python 이용해 MQTT 통신하기"
-date: 2021-08-10
+date: 2021-08-11
 categories:
   - SensorMonitoring
 tags:
