@@ -17,7 +17,7 @@ tags:
 전체 아키텍처로 보자면 파란색 부분입니다. 
 
 <p align = "center">
-  <img src= "https://cdn.jsdelivr.net/gh/dongwon18/dongwon18.github.io/assets/images/프로젝트4.png" alt = "total architecture">
+  <img src= "/assets/images/프로젝트4.png" alt = "total architecture">
   전체 아키텍처 중 구현한 부분
 </p>
 
@@ -87,7 +87,7 @@ python3 send_sensor_by_MQTT.py --endpoint your-endpoint --client-id RPI --topic 
 - 결과는 `DynamoDB 콘솔 -> 항목 -> 테이블 선택` 을 통해 확인하실 수 있습니다.
 
 <p align = "center">
-  <img src= "https://cdn.jsdelivr.net/gh/dongwon18/dongwon18.github.io/assets/images/store_value4.PNG" alt = "stored value in DynamoDB"> <br/>
+  <img src= "/assets/images/store_value4.PNG" alt = "stored value in DynamoDB"> <br/>
   DynamoDB에 저장된 데이터
 </p>
 
