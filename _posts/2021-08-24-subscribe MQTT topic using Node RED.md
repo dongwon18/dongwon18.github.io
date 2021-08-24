@@ -50,18 +50,18 @@ tags:
   Node Red 코딩
 </p>
 
-    - 서버: AWS IoT endpoint 입력
-    - 포트: 8883
-    - `사용 TLS` 활성
-        - TLS 설정 옆 연필 모양 클릭
-            - 이전에 다운로드 받아 놓은 인증서 3개를 각각 등록
-            - 저장하기
-    - QoS: 0
-    - Protocol: MQTT v3.1.1   
-    AWS IoT의 MQTT는 실제로는 v3.1.1과는 달리 QoS를 0, 1만 지원합니다. (저는 처음에 Node-RED QoS 기본이 2로 설정되어 있는데 상관 없을 거라고 생각하고 진행하고 연결이 안 되었는데 그 이유가 이 때문이었습니다.) 그 외에도 와일드 카드 사용 시 parent 주제 구독 여부 등 차이가 있으니 자세한 건 [AWS IoT Developer Guide의 내용](https://docs.aws.amazon.com/iot/latest/developerguide/mqtt.html#mqtt-differences)을 참고해주세요.
-    - 주제: device/RPI/data   
-    이전에 제가 작성한 코드에서 데이터를 게시하는 주제입니다.
-    - 저장하기
+  - 서버: AWS IoT endpoint 입력
+  - 포트: 8883
+  - `사용 TLS` 활성
+      - TLS 설정 옆 연필 모양 클릭
+          - 이전에 다운로드 받아 놓은 인증서 3개를 각각 등록
+          - 저장하기
+  - QoS: 0
+  - Protocol: MQTT v3.1.1   
+  AWS IoT의 MQTT는 실제로는 v3.1.1과는 달리 QoS를 0, 1만 지원합니다. (저는 처음에 Node-RED QoS 기본이 2로 설정되어 있는데 상관 없을 거라고 생각하고 진행하고 연결이 안 되었는데 그 이유가 이 때문이었습니다.) 그 외에도 와일드 카드 사용 시 parent 주제 구독 여부 등 차이가 있으니 자세한 건 [AWS IoT Developer Guide의 내용](https://docs.aws.amazon.com/iot/latest/developerguide/mqtt.html#mqtt-differences)을 참고해주세요.
+  - 주제: device/RPI/data   
+  이전에 제가 작성한 코드에서 데이터를 게시하는 주제입니다.
+  - 저장하기
 5. 라즈베리파이에서 이전 글에서 작성했던 send_sensor_by_MQTT.py를 실행하여 센서에서 값을 읽어와 주제에 게시합니다.
 6. Node-RED에서 디버그 창을 통해 메시지를 확인합니다.
 
