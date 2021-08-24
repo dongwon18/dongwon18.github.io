@@ -1,7 +1,7 @@
 ---
 title: "Node Red 이용하여 MQTT 주제 구독하기"
 excerpt: "Node Red, AWS IoT MQTT 이용 센서 값 브라우저에서 확인하기"
-date:2021-08-24
+date: 2021-08-24
 categories:
   - IoT
 tags:
