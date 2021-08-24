@@ -46,7 +46,7 @@ tags:
 4. 아래와 같이 MQTT 주제를 구독하고 값을 받아옵니다.(연필 모양 클릭으로 설정 화면 진입)
 
 <p align = "center">
-  <img src = "/assets/images/NODE_RED.PNG" alt = "Node Red coding"> <br/>
+  <img src = "/assets/images/NODE-RED.PNG" alt = "Node Red coding"> <br/>
   Node Red 코딩
 </p>
 
