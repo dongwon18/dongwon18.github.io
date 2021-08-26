@@ -161,7 +161,7 @@ tags:
 5. github의 `index.html` 을 다음과 같이 변경합니다.   
 어떤 데이터인지, 단위는 무엇인지를 함께 명시하여 데이터를 확인할 때 보다 쉽게 확인할 수 있도록 했습니다.
 
-<script src=[https://gist.github.com/dongwon18/2dadb7ca77f40192b376141259d6a8cc.js"></script>
+<script src="https://gist.github.com/dongwon18/2dadb7ca77f40192b376141259d6a8cc.js"></script>
 
 6. `AWS Amplify 콘솔 -> 액세스 제어 -> 액세스 관리` 에서 페이지에 접속할 때 ID와 패스워드를 입력해야 접속할 수 있도록 설정할 수 있습니다.
 7. 깃허브의 코드를 변경하면 AWS Amplify에서 배포가 완료될 때까지 기다립니다. 
