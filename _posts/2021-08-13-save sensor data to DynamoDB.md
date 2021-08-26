@@ -50,6 +50,15 @@ tags:
 
 ## DynamoDB 테이블
 
+<div class="notice--info" markdown='1'>
+**변경 사항**  
+이후 부분을 진행하면서 필요에 의해 DynamoDB의 key를 변경하였습니다. 변경된 사항은 다음과 같습니다.
+
+파티션 키: client_id(문자)  
+정렬 키: store_time(숫자)
+</div>
+
+
 1. `AWS DynamoDB 콘솔 -> 테이블` 에서 테이블을 생성합니다.  
     - 테이블 이름: RPI_data
     - 파티션 키: store_time(숫자)
