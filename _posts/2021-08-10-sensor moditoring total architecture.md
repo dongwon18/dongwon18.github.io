@@ -27,6 +27,12 @@ tags:
 
 # 프로젝트 아키텍처
 
+<div class = "notice--info" markdown="1">
+**전체 아키텍처 변환**  
+센서 값 실시간 모니터링 구현 부분에서 변경된 사항이 있습니다. [해당 글](https://dongwon18.github.io/sensormonitoring/monitoring-sensor-at-webpage/)을 참고해주세요.
+</div>
+
+
 <p align = "center">
   <img src = "/assets/images/AWS IoT Architecture (3).png" alt = "total architecture"> <br/>
   전체 아키텍처
