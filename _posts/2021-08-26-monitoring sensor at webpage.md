@@ -145,12 +145,11 @@ tags:
 3. AWS IoT Rule RPI_data_store에서 데이터를 저장하는 테이블을 Sensor_data로 변경해줍니다.
 4. Lambda 함수를 다음과 같이 변경합니다.
 
-
 <script src="https://gist.github.com/dongwon18/93820154b84a084df0e452e7ebf00b98.js"></script>
 
   > 참고로 DynamoDB에서는 상위 5개 데이터 가져오기 등을 바로 실행하는 방법이 없습니다. 찾아보니 데이터를 저장할 때 번호를 매겨 해당 column을 기준으로 정렬하게 한 후 정렬된 값 중 번호가 일정 범위 이상인 데이터를 가져오는 식으로 쿼리를 작성하여 실행할 수 밖에 없다고 하더라고요. 제가 만든 테이블의 경우 timestamp를 포함하기 때문에 새로운 column을 만들지는 않고 timestamp를 활용해보기로 했습니다.
 
-   ```python
+  ```python
     start = now - timedelta(seconds = 10) #now라는 시간보다 10초 전 시간을 지정합니다.
 
     table.query(
