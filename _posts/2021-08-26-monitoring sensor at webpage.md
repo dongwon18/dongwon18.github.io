@@ -145,7 +145,8 @@ tags:
 3. AWS IoT Rule RPI_data_store에서 데이터를 저장하는 테이블을 Sensor_data로 변경해줍니다.
 4. Lambda 함수를 다음과 같이 변경합니다.
 
-<script src="[https://gist.github.com/dongwon18/93820154b84a084df0e452e7ebf00b98.js](https://gist.github.com/dongwon18/93820154b84a084df0e452e7ebf00b98.js)"></script>
+
+<script src="https://gist.github.com/dongwon18/93820154b84a084df0e452e7ebf00b98.js"></script>
 
   > 참고로 DynamoDB에서는 상위 5개 데이터 가져오기 등을 바로 실행하는 방법이 없습니다. 찾아보니 데이터를 저장할 때 번호를 매겨 해당 column을 기준으로 정렬하게 한 후 정렬된 값 중 번호가 일정 범위 이상인 데이터를 가져오는 식으로 쿼리를 작성하여 실행할 수 밖에 없다고 하더라고요. 제가 만든 테이블의 경우 timestamp를 포함하기 때문에 새로운 column을 만들지는 않고 timestamp를 활용해보기로 했습니다.
 
@@ -161,7 +162,7 @@ tags:
 5. github의 `index.html` 을 다음과 같이 변경합니다.   
 어떤 데이터인지, 단위는 무엇인지를 함께 명시하여 데이터를 확인할 때 보다 쉽게 확인할 수 있도록 했습니다.
 
-<script src="[https://gist.github.com/dongwon18/2dadb7ca77f40192b376141259d6a8cc.js](https://gist.github.com/dongwon18/2dadb7ca77f40192b376141259d6a8cc.js)"></script>
+<script src=[https://gist.github.com/dongwon18/2dadb7ca77f40192b376141259d6a8cc.js"></script>
 
 6. `AWS Amplify 콘솔 -> 액세스 제어 -> 액세스 관리` 에서 페이지에 접속할 때 ID와 패스워드를 입력해야 접속할 수 있도록 설정할 수 있습니다.
 7. 깃허브의 코드를 변경하면 AWS Amplify에서 배포가 완료될 때까지 기다립니다. 
