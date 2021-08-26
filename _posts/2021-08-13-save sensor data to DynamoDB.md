@@ -61,6 +61,13 @@ tags:
 1. `AWS IoT Console -> 동작 -> 규칙` 에서 규칙을 생성합니다.
     - 이름: RPI_data_store
     - 규칙 쿼리 설명문
+```SQL
+SELECT
+  cast(temperature AS DECIMAL) as temperature, 
+  humidity
+FROM
+  'device/+/data'
+```
     - 작업: DynamoDB 테이블에 메시지 삽입하기
         - 테이블 이름: 이전에 만들었던 테이블을 선택
         - 파티션 키: ${timestamp()}
