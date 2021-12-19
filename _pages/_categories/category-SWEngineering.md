@@ -1,6 +1,6 @@
 ---
 title: "SW Engineering"
-layout: archive
+layout: default
 permalink: categories/#swengineering
 author_profile: true
 sidebar_main: true
