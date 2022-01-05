@@ -1,5 +1,5 @@
 ---
-title: "3. Software Process"
+title: "3 Software Process"
 excerpt: "Fundamental SW activity, Process models & activities"
 date: 2022-01-05
 categories:
