@@ -28,10 +28,10 @@ toc_sticky: true
     - Application types
     - SW Engineering with Web
     - Ethics
-2. System Engineering
+2. [System Engineering](https://dongwon18.github.io/swengineering/System_Engineering/) (updated on Dec 29, 2021)
     - System 및 Sociotechnical system의 definition
     - System Engineering definition 및 각 단계에 대한 간략한 설명
-3. SW Process(System Engineering → Development 중 한 단계)
+3. [SW Process(System Engineering → Development 중 한 단계)](https://dongwon18.github.io/swengineering/SW_Process/) (updated on Jan 05, 2022)
 4. Agile
     - principle 및 applicability of Agile
     - Extreme Programming(XP)
