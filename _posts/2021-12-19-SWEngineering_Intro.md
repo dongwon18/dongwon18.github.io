@@ -1,5 +1,5 @@
 ---
-title: "1. SW Engineering Introduction"
+title: "1 SW Engineering Introduction"
 excerpt: "defi & cost of SW, good SW, application type, ethics"
 date: 2021-12-19
 categories: 
