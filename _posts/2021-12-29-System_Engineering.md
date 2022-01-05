@@ -1,7 +1,7 @@
 ---
 title: "System Engineering"
 excerpt: "socio-technical system, system engineering definition and steps"
-date: 2021-112-29
+date: 2021-12-29
 categories:
   - SWEngineering
 tags:
@@ -10,12 +10,6 @@ tags:
 toc: true
 toc_sticky: true
 ---
-
-# 2. System Engineering
-
-게시여부: No
-날짜: 2021년 12월 19일
-카테고리: SWEngineering
 
 이 글은 소프트웨어공학개론 내용 정리 카테고리의 두 번째 글입니다. 다른 내용도 확인하고 싶다면 [introduction page](https://dongwon18.github.io/swengineering/SWEngineering_start/)를 확인해주세요. 
 
