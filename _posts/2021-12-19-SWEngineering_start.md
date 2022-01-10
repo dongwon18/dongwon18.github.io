@@ -32,7 +32,7 @@ toc_sticky: true
     - System 및 Sociotechnical system의 definition
     - System Engineering definition 및 각 단계에 대한 간략한 설명
 3. [SW Process(System Engineering → Development 중 한 단계)](https://dongwon18.github.io/swengineering/SW_Process/) (updated on Jan 05, 2022)
-4. Agile
+4. [Agile](https://dongwon18.github.io/-swengineering/Agile/) (updated on Jan 10, 2022)
     - principle 및 applicability of Agile
     - Extreme Programming(XP)
     - SCRUM
