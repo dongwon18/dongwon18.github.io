@@ -36,7 +36,7 @@ toc_sticky: true
     - principle 및 applicability of Agile
     - Extreme Programming(XP)
     - SCRUM
-5. Requirement Engineering
+5. [Requirement Engineering](https://dongwon18.github.io/swengineering/Requirement_Engineering/) (updated on Jan 13, 2022)
     - user requirement & system requirement
     - functional & nonfunctional & domain requirements
     - SW Requirement Document
