@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 ---
 
-이 글은 소프트웨어공학개론 내용 정리 카테고리의 네 번째 글입니다. 다른 내용도 확인하고 싶다면 [introduction page](https://dongwon18.github.io/swengineering/SWEngineering_start/)를 확인해주세요.
+이 글은 소프트웨어공학개론 내용 정리 카테고리의 다섯 번째 글입니다. 다른 내용도 확인하고 싶다면 [introduction page](https://dongwon18.github.io/swengineering/SWEngineering_start/)를 확인해주세요.
 
 System Engineering 내에서 concept design 후에 진행하거나 design과 겹치는 형식으로 진행되는 부분입니다. Develop의 첫 단계라고 볼 수 있습니다.
 
