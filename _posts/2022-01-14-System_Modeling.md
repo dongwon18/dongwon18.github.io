@@ -1,6 +1,6 @@
 ---
 title: "6 System Modeling"
-excerpt: ""
+excerpt: "defi of model, UML, System Perspective, MDE"
 date: 2022-01-14
 categories:
   - SWEngineering
