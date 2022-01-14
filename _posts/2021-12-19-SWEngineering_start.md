@@ -2,7 +2,7 @@
 title: "SW Engineering Introduction"
 excerpt: "SW Engineering 정리를 시작하며"
 date: 2021-12-19
-last_modified_at: 2022-01-13
+last_modified_at: 2022-01-14
 categories: 
   - SWEngineering
 tags:
@@ -44,9 +44,10 @@ toc_sticky: true
     - Requirement Engineering Process
     - Requirement elicitation & analysis
     - Requirement management
-6. System Modeling
+6. [System Modeling](https://dongwon18.github.io/swengineering/System_Modeling/) (updated on Jan 14, 2022)
     - definition of model
     - System Perspective
+    - Model Driven Engineering(MDE)
 7. Architecture Design
     - Definition and Advantage of Architecture Design
     - Architecture view
