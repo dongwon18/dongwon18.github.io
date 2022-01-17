@@ -1,6 +1,6 @@
 ---
 title: "7 Architecture Design"
-excerpt: ""
+excerpt: "Architecture Design 정의, 장점, 선택 시 고려사항, Pattern"
 date: 2022-01-17
 categories:
   - SWEngineering
