@@ -2,7 +2,7 @@
 title: "SW Engineering Introduction"
 excerpt: "SW Engineering 정리를 시작하며"
 date: 2021-12-19
-last_modified_at: 2022-01-14
+last_modified_at: 2022-01-17
 categories: 
   - SWEngineering
 tags:
@@ -48,7 +48,7 @@ toc_sticky: true
     - definition of model
     - System Perspective
     - Model Driven Engineering(MDE)
-7. Architecture Design
+7. [Architecture Design](https://dongwon18.github.io/swengineering/Architecture_Design/) (updated on Jan 17, 2022)
     - Definition and Advantage of Architecture Design
     - Architecture view
     - Architecture pattern
