@@ -144,4 +144,4 @@ input → process → output 형식
 - language → output 형태일 때, interpreter, algorithm & data 설명하는 방식이 가장 효율적일 때 사용
 - repository architecture, pipe&filter compiler 패턴을 사용하여 구현 가능  
 
-이 글은 공부한 내용을 정리한 글으로 오류가 존재할 수 있습니다. 오류를 바견하신다면 댓글로 알려주시길 바랍니다.
+이 글은 공부한 내용을 정리한 글으로 오류가 존재할 수 있습니다. 오류를 하신다면 댓글로 알려주시길 바랍니다.
