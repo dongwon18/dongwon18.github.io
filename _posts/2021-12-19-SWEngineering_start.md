@@ -2,7 +2,7 @@
 title: "SW Engineering Introduction"
 excerpt: "SW Engineering 정리를 시작하며"
 date: 2021-12-19
-last_modified_at: 2022-01-17
+last_modified_at: 2022-01-19
 categories: 
   - SWEngineering
 tags:
@@ -53,7 +53,7 @@ toc_sticky: true
     - Architecture view
     - Architecture pattern
     - Application architecture
-8. Design and Implementation
+8. [Design and Implementation](https://dongwon18.github.io/swengineering/Design_Implementation/) (updated on Jan 19, 2022)
     - Definition of Object Oriented Design
     - Process stage of Design
     - Design Pattern
