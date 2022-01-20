@@ -2,7 +2,7 @@
 title: "SW Engineering Introduction"
 excerpt: "SW Engineering 정리를 시작하며"
 date: 2021-12-19
-last_modified_at: 2022-01-19
+last_modified_at: 2022-01-20
 categories: 
   - SWEngineering
 tags:
@@ -58,7 +58,7 @@ toc_sticky: true
     - Process stage of Design
     - Design Pattern
     - Reuse
-9. SW Testing
+9. [SW Testing](https://dongwon18.github.io/swengineering/SW_Testing/) (updated on Jan 20, 2022)
     - Definition of SW Testing
     - Stage of Testing
 10. Project Management
