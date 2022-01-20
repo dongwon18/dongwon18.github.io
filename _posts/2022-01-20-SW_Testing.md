@@ -1,6 +1,6 @@
 ---
 title: "9 SW Testing"
-excerpt: ""
+excerpt: "Inspection, stage of testing, TDD"
 date: 2022-01-20
 categories:
   - SWEngineering
