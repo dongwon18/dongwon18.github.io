@@ -57,6 +57,25 @@
                 {% endfor %}
             </ul>
             
+          <span class="nav__title">CS</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+             <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "SWEngineering" %}
+                        <li><a href="/categories/#swengineering" class="nav__sub-title" style = "cursor:pointer;">SW Engineering ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "ComputerNetwork" %}
+                        <li><a href="/categories/#computernetwork" class="nav__sub-title" style = "cursor:pointer;">Computer Network ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
           <span class="nav__title">Else</span>
             <ul>
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
@@ -65,15 +84,7 @@
                         <li><a href="/categories/#errorhandling" class="nav__sub-title" style = "cursor:pointer;">Error Handling ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "SWEngineering" %}
-                        <li><a href="/categories/#swengineering" class="nav__sub-title" style = "cursor:pointer;">SW Engineering ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            </ul>   
             
       </li>
   </ul>
