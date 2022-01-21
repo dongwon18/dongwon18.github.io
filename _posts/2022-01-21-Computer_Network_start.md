@@ -1,5 +1,6 @@
 ---
 title: "0 Computer Network 시작"
+excerpt: "Introduction, 목차"
 date: 2022-01-21
 last_modified_at: 2022-01-21
 categories:
