@@ -292,6 +292,7 @@ defaults:
       date_format: "%B %d, %Y"
       toc: true
       toc_sticky: true
+      use_math: true
       
       
   # _pages
