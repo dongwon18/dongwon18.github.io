@@ -53,7 +53,7 @@ packet switching과 달리 set up time이 필요하다.
 총 4가지의 delay가 존재한다.
 
 <p align = "center">
- ![Untitled](https://user-images.githubusercontent.com/74483608/150898163-f128d58f-7cdd-4bae-8ffe-760d8ac12e56.png) <br />
+ ![Packet Delay](https://user-images.githubusercontent.com/74483608/150898163-f128d58f-7cdd-4bae-8ffe-760d8ac12e56.png) <br />
   four kinds of packet delay (출처: computer networking a top down approach 발행 ppt)
 </p>
 
