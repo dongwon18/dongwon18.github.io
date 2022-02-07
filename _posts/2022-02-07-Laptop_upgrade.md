@@ -11,14 +11,7 @@ tags:
   - Windows10
 ---
 
-# 노트북 업그레이드
-
-게시여부: No
-날짜: 2022년 2월 7일
-카테고리: DevEn
-
 안녕하세요.  
-
 기존에 사용하던 노트북의 SSD와 램을 업그레이드 했습니다. 준비 과정  방식을 적어두면 나중에 도움이 될 것 같아 기록하겠습니다.
 
 ## 기존 상태
@@ -102,7 +95,7 @@ VSCode를 새로 설치 후 동일한 방식으로 설정 동기화에서 동기
 ## HW 업그레이드
 
 <p align="center">
-  <img src="./assets/images/KakaoTalk_20220207_130959003.jpg" alter="motherboard"><br />
+  <img src="/assets/images/KakaoTalk_20220207_130959003.jpg" alter="motherboard"><br />
   덮개 연 후(초록색: SSD 보라색: RAM)
 </p>
 
@@ -120,7 +113,7 @@ VSCode를 새로 설치 후 동일한 방식으로 설정 동기화에서 동기
 ### SSD
 
 <p align="center">
-  <img src="./assets/images/KakaoTalk_20220207_130959003_01.jpg" alter="previous SSD"><br />
+  <img src="/assets/images/KakaoTalk_20220207_130959003_01.jpg" alter="previous SSD"><br />
   기존 SSD
 </p>
 
