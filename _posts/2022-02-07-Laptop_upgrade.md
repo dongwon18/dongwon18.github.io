@@ -127,13 +127,13 @@ VSCode를 새로 설치 후 동일한 방식으로 설정 동기화에서 동기
 
 <div class="notice--info" markdown="1">
   <ol>
-    <li> RAM, SSD 기존 스펙 조사 및 호완성 고려하여 새 제품 구매
-    <li> Microsoft 계정 알아놓기
-    <li> OS 정품 인증 방식 알아놓기 및 부팅 USB 제작
-    <li> 개인 파일 백업해놓기
-    <li> 개발 환경 기억하기(VSCode sync 등 이용)
-    <li> 하드웨어 교체 후 OS 재설치 및 개발환경 세팅
-    <li> Auto Hokey 다운 및 키보드 배열 
+    <li> RAM, SSD 기존 스펙 조사 및 호완성 고려하여 새 제품 구매</li>
+    <li> Microsoft 계정 알아놓기</li>
+    <li> OS 정품 인증 방식 알아놓기 및 부팅 USB 제작</li>
+    <li> 개인 파일 백업해놓기</li>
+    <li> 개발 환경 기억하기(VSCode sync 등 이용)</li>
+    <li> 하드웨어 교체 후 OS 재설치 및 개발환경 세팅</li>
+    <li> Auto Hokey 다운 및 키보드 배열 </li>
   </ol>
 </div>
 
