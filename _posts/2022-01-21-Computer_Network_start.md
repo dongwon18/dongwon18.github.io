@@ -2,7 +2,7 @@
 title: "0 Computer Network 시작"
 excerpt: "Introduction, 목차"
 date: 2022-01-21
-last_modified_at: 2022-01-21
+last_modified_at: 2022-02-09
 categories:
   - ComputerNetwork
 tags:
@@ -20,8 +20,8 @@ tags:
 
 ## Contents
 
-1. Computer Network Introduction
-2. Link Layer
+1. [Computer Network Introduction](https://dongwon18.github.io/computernetwork/Computer_Networks_Intro/)
+2. [Link Layer](https://dongwon18.github.io/computernetwork/Link_layer/)
     - Error Detection Code
     - Multiple Access Protocol(ALOHA, CSMA/CA, CSMA/CD)
     - MAC & ARP
