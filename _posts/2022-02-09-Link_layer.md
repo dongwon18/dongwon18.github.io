@@ -98,7 +98,7 @@ collision이 발생할 수 있고 발생한다면 slot이 낭비된다.
 clock 동기화가 필요하다.
 - efficiency
 
-$$lim_{N→∞}(Np(1-p)^(N-1)) = 1/e = 0.37$$
+$$lim<sub>N→∞</sub>Np(1-p)<sup>N-1</sup> = 1/e = 0.37$$
 
 #### (unslotted) ALOHA
 
@@ -109,7 +109,7 @@ $$lim_{N→∞}(Np(1-p)^(N-1)) = 1/e = 0.37$$
 - 해당 노드가 송신하기 전에 송신하고 있던 노드가 없어야 하고 해당 노드가 송신이 끝나기 전에 송신하는 노드가 없어야 하기 때문에 충돌 확률이 더욱 높아진다.
 - efficiency
     
-$$lim_{N→∞} (Np(1-p)^(2(N-1))) = 1/2e = 0.18$$
+$$lim<sub>N→∞</sub>Np(1-p)<sup>2(N-1)</sup> = 1/2e = 0.18$$
     
 
 #### CSMA(Carrier Sense Multiple Access)
