@@ -57,7 +57,7 @@ PC = PC[31:28] | (address filed) * 4 로 설정한다.
 ex) add $t0,  $s1, $s2
 
 <p align="center">
-  <img src="./assets/images/CPU.drawio.png" alt="기본 Processor Architecture"> <br/>
+  <img src="/assets/images/CPU.drawio.png" alt="기본 Processor Architecture"> <br/>
   기본 Processor architecture
 </p>
 
@@ -111,7 +111,7 @@ sw: X 1 X 0 0 1 0 0 0
 beq: X 0 X 0 0 0 1 0 1
 
 <p align="center">
-  <img src="./assets/images/CPU.jpg" alt="최종 architecture"> <br/>
+  <img src="/assets/images/CPU.jpg" alt="최종 architecture"> <br/>
   최종 architecture
 </p>
 
