@@ -1,7 +1,7 @@
 ---
 title: "3 The Processor"
 excerpt: "CPU 하는 일, CPU 내부 구성, critical path"
-date: 2022-03-14
+date: 2022-03-12
 categories:
   - ComputerArchitecture
 tags:
