@@ -2,7 +2,7 @@
 title: "0 Computer Architecture 시작하기"
 excerpt: "카테고리 소개 및 목차"
 date: 2022-03-10
-last_modified_at: 2022-03-10
+last_modified_at: 2022-03-14
 categories:
   - ComputerArchitecture
 tags:
@@ -19,9 +19,9 @@ tags:
 
 ## 목차
 
-1. Computer Architecture Introduction
+1. [Computer Architecture Introduction](https://dongwon18.github.io/computerarchitecture/Computer_Architecture_Introduction/) (updated on March 11, 2022)
 2. Language of the Computer
-3. The Processor
+3. [The Processor](https://dongwon18.github.io/computerarchitecture/The_Processor/) (updated on March 12, 2022)
 4. Pipelining
-5. Memory Hierarchy
+5. [Memory Hierarchy](https://dongwon18.github.io/computerarchitecture/Memory_Hierarchy/) (updated on March 14, 2022)
 6. Floating Point
