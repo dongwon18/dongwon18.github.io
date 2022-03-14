@@ -36,17 +36,17 @@ cache 또한 L1, L2, L3로 나뉠 수 있는데 L1 cache, L2 cache는 core마다
 - Set이 없이 **한 주솟값에 대해 한 블록만 존재**한다.
 - 주소 구성
 tag, index, offset 순서로 이루어짐
-    - offset: 블록 크기에 의해 결정됨($$log_2 블록당 byte$$) 
-    예: 1 word/ block = $$log_2 4 = 2$$bit
-    - Index: 캐시 내에 들어갈 수 있는 블록 수로 결정됨
-    예: 4KB cache, 4 words/block = 4KB / 16 B = 256 blocks in a cache
-    $$log_2 256=8$$bit
-    - tag:  남은 부분
+    - offset: 블록 크기에 의해 결정됨(log<sub>2</sub> 블록당 byte)  
+    예: 1 word/ block = log<sub>2</sub> 4 = 2bit  
+    - Index: 캐시 내에 들어갈 수 있는 블록 수로 결정됨  
+    예: 4KB cache, 4 words/block = 4KB / 16 B = 256 blocks in a cache  
+    log<sub>2</sub> 256 = 8 bit  
+    - tag:  남은 부분  
 - index가 동일하지만 tag가 다른 블록이 존재할 수 있기 때문에 index를 확인하고 해당 index에 데이터가 있다면 tag 또한 원하는 데이터와 동일한지 확인한다.
 - index가 동일한 블록이 이미 cache 내에 존재한다면 이를 replace한다.
-- 블록의 크기가 커지면 spatial locality는 증가한다.
+- 블록의 크기가 커지면 spatial locality는 증가한다.  
 주위에 위치한 데이터를 더 많이 cache에 올릴 수 있으므로
-- 그러나 블록이 커지면 cache 내부에 존재할 수 있는 총 블록의 개수는 줄어들게 된다. 따라서 블록 miss rate이 더 높아지게 된다.
+- 그러나 블록이 커지면 cache 내부에 존재할 수 있는 총 블록의 개수는 줄어들게 된다. 따라서 블록 miss rate이 더 높아지게 된다.  
 원하는 블록이 cache 내부에 있을 확률이 줄어들기 때문
 - 따라서 **block size와 miss rate은 trade off 관계**에 있다 볼 수 있다.
 
@@ -69,20 +69,20 @@ tag, index, offset 순서로 이루어짐
 
 write 방식과 함께 조합해보면
 
-- write through, no wirte allocate
-write hit: 캐시 업데이트, 메모리 업데이트
-write miss: 메모리 업데이트
-- write through, wire allocate
-write hit: 캐시 업데이트, 메모리 업데이트
-write miss: 블록 캐시에 fetch, 캐시 업데이트, 메모리 업데이트
-- write back, no write allocate
-write hit: 캐시 업데이트, dirty bit high로 세팅
-write miss: 메모리 업데이트
-dirty line replace: 메모리 업데이트
-- write back, write allocate
-write hit: 캐시 업데이트, dirty bit high로 세팅
-write miss: 블록 캐시에 fetch, 캐시 업데이트, dirty bit high로 세팅
-dirty line replace: 메모리 업데이트
+- write through, no wirte allocate  
+write hit: 캐시 업데이트, 메모리 업데이트  
+write miss: 메모리 업데이트  
+- write through, wire allocate  
+write hit: 캐시 업데이트, 메모리 업데이트  
+write miss: 블록 캐시에 fetch, 캐시 업데이트, 메모리 업데이트  
+- write back, no write allocate  
+write hit: 캐시 업데이트, dirty bit high로 세팅  
+write miss: 메모리 업데이트  
+dirty line replace: 메모리 업데이트  
+- write back, write allocate  
+write hit: 캐시 업데이트, dirty bit high로 세팅  
+write miss: 블록 캐시에 fetch, 캐시 업데이트, dirty bit high로 세팅  
+dirty line replace: 메모리 업데이트  
 
 ## N-way Set associative
 
@@ -105,13 +105,13 @@ cache 내에 자리에 상관 없이 빈 곳이 있으면 블록을 fetch한다.
 
 ## Miss
 
-- Compulsory miss(cold start miss)
-처음 시작할 때 데이터가 없을 때 발생하는 miss로 피할 수 없다.
-- Capacity miss
-cache size가 한정적이기 때문에 발생하는 miss로 이전에 대체된 블록이 다시 쓰이면서 발생하는 miss이다.
-- Conflict miss
-fully associative이 경우에는 발생하지 않는다.
-set이 차 있는 경우 그 set에 블록이 들어갈 수 없어 발생하는 miss이다.
+- Compulsory miss(cold start miss)  
+처음 시작할 때 데이터가 없을 때 발생하는 miss로 피할 수 없다.  
+- Capacity miss  
+cache size가 한정적이기 때문에 발생하는 miss로 이전에 대체된 블록이 다시 쓰이면서 발생하는 miss이다.  
+- Conflict miss   
+fully associative이 경우에는 발생하지 않는다.  
+set이 차 있는 경우 그 set에 블록이 들어갈 수 없어 발생하는 miss이다.  
 
 ## Virtual Memory
 
@@ -121,7 +121,7 @@ set이 차 있는 경우 그 set에 블록이 들어갈 수 없어 발생하는 
 - 만약 page table entry에 해당 페이지가 존재하면 hit, 존재하지 않으면 page fault가 발생하여 OS에서 처리하게 된다.(바꿀 page를 선택한다.) 이 때 dirty bit이 high면 디스크에 값을 저장한 후 교체한다.
 - page fault를 줄이기 위해서는 pseudo LRU 방식이 주로 사용되며 write-back 방식을 사용한다.
 - 그러나 page table entry는 상당히 큰 용량을 차지할 수 있다.  
-$$ 2^(20)$$ page가 가상 메모리에 있다고 가정하고 page entry 당 4 byte를 차지한다고 가정하면 총 4MB가 필요하다. 
+  2<sup>20</sup> page가 가상 메모리에 있다고 가정하고 page entry 당 4 byte를 차지한다고 가정하면 총 4MB가 필요하다. 
 이를 해결하기 위해 page의 크기를 늘리거나 multi-level page table이 사용된다.
 - 또한 page table을 확인하기 위해서 메인 메모리에 계속 접근해야 해서 시간이 오래 걸리므로 Translation Look-asicde Buffer(TLB)를 추가로 사용하여 속도를 높이기도 한다.
 
