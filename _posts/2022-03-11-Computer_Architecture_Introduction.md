@@ -43,19 +43,19 @@ Chip-to-chip data communication → System-on-Chip → Chiplet
 
 ## IC Chip cost
 
-$cost per die = (cost per wafer)/(dies per wafer * Yield)$
-$Yield = 1 /  ((1 +(Defects per area * Die area / 2))^2)$
+cost per die = (cost per wafer)/(dies per wafer * Yield)
+Yield = 1 /  ((1 +(Defects per area * Die area / 2))<sup>2</sup>)
 
 웨이퍼를 크게 자를수록(칩의 크기가 커질수록) defect가 많아진다.
 
 ## Performance
 
-$CPU Time = (CPU Clock Cycles) / (Clock Rate)$
+CPU Time = (CPU Clock Cycles) / (Clock Rate)
 
 성능을 향상시키려면 **clock cycle 수 줄이기, clock rate 높이기** 두 가지 방법이 있다. 그러나 이 두 가지는 trade off 관계이므로 하드웨어 설계 시 주요 고려 대상이다.
 
 - Clock cycle  
-$Instruction Count * Cycles per Instruction$  
+Instruction Count * Cycles per Instruction
 Instruction Count: 프로그램을 어떻게 설계하는지에 따라 달라짐  
 Cycle per Instruction: processor 설계에 따라 달라짐, instruction type에 따라 달라짐
 
