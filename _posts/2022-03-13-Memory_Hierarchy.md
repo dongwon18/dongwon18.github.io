@@ -1,7 +1,7 @@
 ---
 title: "5 Memory Hierarchy"
 excerpt: "access latency, cache memory, direct mapped, N-way associative, write-back, write-through, virtual memory"
-date: 2022-03-14
+date: 2022-03-13
 categories:
   - ComputerArchitecture
 tags:
