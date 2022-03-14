@@ -49,7 +49,7 @@ E = 10
 Exp = E + Bias = 10 + 2<sup>8-1</sup> = 137 = 1000 1001<sub>2</sub>  
 
 <p align="center">
-  <img src="./assets/images/floating_point.png" alt="floating point는 불균일 간격이다"> <br/>
+  <img src="/assets/images/floating_point.png" alt="floating point는 불균일 간격이다"> <br/>
   이미지 출처: https://www.sciencedirect.com/topics/engineering/floating-point-number
 </p>
 
