@@ -23,5 +23,5 @@ tags:
 2. Language of the Computer
 3. [The Processor](https://dongwon18.github.io/computerarchitecture/The_Processor/) (updated on March 12, 2022)
 4. Pipelining
-5. [Memory Hierarchy](https://dongwon18.github.io/computerarchitecture/Memory_Hierarchy/) (updated on March 14, 2022)
-6. Floating Point
+5. [Memory Hierarchy](https://dongwon18.github.io/computerarchitecture/Memory_Hierarchy/) (updated on March 13, 2022)
+6. [Floating Point](https://dongwon18.github.io/computerarchitecture/Floating_Point/) (updated on March 14, 2022)
