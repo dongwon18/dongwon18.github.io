@@ -13,13 +13,13 @@ tags:
 
 ## 8 great idea
 
-- Desgin for Moore’s Law  
+- Design for Moore’s Law  
 IC 칩 내 트랜지스터 개수가 2년마다 2배가 된다
 - Use abstracton to simplify design
 - Make the **common case faster(Amdahl’s Law)**
 - Performance via **parallelism**
 - Performance via **pipelineing**
-- Perfornamce via **prediction**
+- Performance via **prediction**
 - **Hierarchy** memory
 - **Dependability** via redundancy
 
@@ -37,7 +37,7 @@ ABI 까지 동일해야 물리적으로 다른 system에서도 동일한 결과�
 
 Chip-to-chip data communication → System-on-Chip → Chiplet
 
-- Chip-to-chip: 1980 년대 IBM의 형태로 하나의 칩에 트랜지스터를 많이 넣을 수 없었다. chip 사이 데이터가 이동하기 위해서는 선을 통해서 이동해야 했기 때문에 느렸고 중간에 loss도 많았기 때문에 전력 소모도 컸다. 또한 값이 비싸고 relieability 또한 낮았다.
+- Chip-to-chip: 1980 년대 IBM의 형태로 하나의 칩에 트랜지스터를 많이 넣을 수 없었다. chip 사이 데이터가 이동하기 위해서는 선을 통해서 이동해야 했기 때문에 느렸고 중간에 loss도 많았기 때문에 전력 소모도 컸다. 또한 값이 비싸고 reliability 또한 낮았다.
 - System-on-chip: 요즘 대부분 사용되고 있는 형태로 chip의 수가 줄어들고 functionality를 집재하였다.
 - Chiplet: 작은 chip이라는 뜻으로 AMD Ryzen은 이 형태이다. 가격이 비교적 저렴하고 chip 사이에 communication을 할 확률을 매우 낮게 설계를 하여 효율성을 증대시켰다. 또한 예전처럼 wire로 연결하는 것이 아닌 반도체로 칩을 연결한다.
 
