@@ -72,7 +72,7 @@ combination circuit처럼 rs, rt register에 저장되어 있는 값(32bit)을 �
 32개의 register의 값을 주솟값으로 MUX로 골라 읽는다.
 - Write  
 sequential circuit처럼 동작하여 rd register에 쓸 데이터를 저장한다. 1 clock period가 걸린다. regwrite를 flag로 활용하여 regwrite가 high면 쓰기 모드, low면 읽기 모드로 동작한다.  
-n-to-2<sup>2 decoder로 rd 값마다 할당된 register에 값을 저장한다.
+n-to-2<sup>2</sup> decoder로 rd 값마다 할당된 register에 값을 저장한다.
 
 #### ALU
 
@@ -81,7 +81,7 @@ n-to-2<sup>2 decoder로 rd 값마다 할당된 register에 값을 저장한다.
 
 ### I format
 
-opcode[31:26] rs[25:21] rt[20:16] immediate[15:0]
+**opcode[31:26] rs[25:21] rt[20:16] immediate[15:0]**  
 ex) addi $t9, $zero, 100
 
 - 1개의 base register address, dest or src register, constant or address 로 이뤄짐
@@ -121,6 +121,6 @@ beq: X 0 X 0 0 0 1 0 1
 inst mem → register file → ALU → data memroy → register file
 load는 매우 자주 쓰이는 inst임에도 불구하고 느리다. 즉 Amdahl’s law에 어긋난다. 따라서 pipelining을 이용하여 성능을 향상시킨다.
   
-이 글은 배운 내용을 정리한 글로 오류가 있을 수 있습니다. 오류를 발견하시면 댓글로 
+이 글은 배운 내용을 정리한 글로 오류가 있을 수 있습니다. 오류를 발견하시면 댓글로 알려주세요.
   
   
