@@ -24,7 +24,7 @@ MIPS에서는 32bit 32 register를 사용한다.
 
 ## Memory hierarchy
 
-Register(Processor 내부) → Cache → Main memory
+**Register(Processor 내부) → Cache → Main memory**
 
 cache에서 main memory사이에서는 **블록 단위**로 데이터를 옮긴다.  
 (따라서 hit ratio를 생각할 때 필요한 데이터가 포함된 블록이 cache 내에 존재하는지 따진다)
@@ -96,7 +96,7 @@ dirty line replace: 메모리 업데이트
     - Round Robin: 순서대로 replace하는 방식이다.
     - Random: 무작위로 선택하는 방식이다.
     
-    LRU 또한 완벽한 방법이 아닐 뿐 아니라 이를 위해 너무 많은 자원이 필요하기 때문에 주로 round robin혹은 random 방식을 많이 사용한다.
+    LRU 또한 완벽한 방법이 아닐 뿐 아니라 이를 위해 너무 많은 자원이 필요하기 때문에 **주로 round robin혹은 random 방식**을 많이 사용한다.
     
 
 ## Fully associative
