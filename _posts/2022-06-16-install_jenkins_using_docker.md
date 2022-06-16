@@ -28,7 +28,7 @@ Below is about what I have done to solve this problem.
 
 ## 에러 상황
 
-```java
+```
 $ docker run -d -p 9090:8080 -p 50000:50000 -v /var/jenkins:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock --name jenkins -u root jenkins/jenkins:lts-jdk11
 docker: error during connect: In the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect.: Post "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=jenkins": open //./pipe/docker_engine: The system cannot find the file specified.
 ```
@@ -49,9 +49,9 @@ docker: error during connect: In the default daemon configuration on Windows, th
         
 - 새로운 에러(windows/amd64 관련)
     
-    ```java
+    ```
     $ docker run -d -p 9090:8080 -p 50000:50000 --name jenkins -u root jenkins/jenkins:lts-jdk11
-    $ no matching manifest for windows/amd64 10.0.19042 in the manifest list entries
+    no matching manifest for windows/amd64 10.0.19042 in the manifest list entries
     ```
     
     - windows/amd64에 맞는 entry가 존재하지 않는다는 에러 발생
@@ -61,7 +61,7 @@ docker: error during connect: In the default daemon configuration on Windows, th
     
 - 새로운 에러(failed to create endpoint 관련)
     
-    ```java
+    ```
     $ WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (windows/amd64) and no specific platform was requested
     3e76a2be7dd0d136d8c7fb4794d2a38afd89e08fa8e65734ff08aa7f0104b767
     docker: Error response from daemon: failed to create endpoint jenkins on network nat: failed during hnsCallRawResponse: hnsCall failed in Win32: The process cannot access the file because it is being used by another process. (0x20).
@@ -79,7 +79,7 @@ docker: error during connect: In the default daemon configuration on Windows, th
 - 결론적으로 WSL2를 설치하지 않아서 발생한 문제였음
 1. 아래 명령어 power shell에서 실행
 
-```java
+```
 $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
@@ -88,7 +88,7 @@ $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nor
 2. [https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) 에서 WSL2 Linux 커널 업데이트 패키지 다운 받아 설치
 3. 아래 명령어 power shell에서 실행
     
-    ```java
+    ```
     $ wsl --set-default-version 2
     WSL 2와의 주요 차이점에 대한 자세한 내용은 https://aka.ms/wsl2를 참조하세요
     작업을 완료했습니다.
@@ -97,7 +97,7 @@ $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nor
 4. `작업 표시줄 > 숨겨진 아이콘 표시 > docker icon에 오른 클릭 > Switch to Linux Containers…` 를 클릭(이 때 docker desktop 화면은 닫아야 한다)
 5. 실행 중인 docker 확인
     
-    ```java
+    ```
     $ wsl -l -v
     NAME                   STATE           VERSION
     * docker-desktop         Running         2
@@ -106,7 +106,7 @@ $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nor
     
 6. 이 상태에서 다음 명령어 실행
     
-    ```java
+    ```
     $ docker run -d -p 9090:8080 -p 50000:50000 --name jenkins -u root jenkins/jenkins:lts-jdk11
     Unable to find image 'jenkins/jenkins:lts-jdk11' locally
     lts-jdk11: Pulling from jenkins/jenkins
