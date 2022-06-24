@@ -192,5 +192,5 @@ Distribued Shared Memory: message passing 소통 시스템의 상단에 위치�
 - Shared memory: read(), write()를 통해 공유되는 메모리에 데이터를 읽고 쓴다.
 - Distributed Shared Memory(DSM): 각 machine이 쓰는 메모리 내에 각  process의 자리가 있어 다른 machine에 있는 본인의 자리에 데이터를 읽고 쓰면 해당 분이 공유 메모리처럼 사용된다. 네트워크로 연결된 시스템에서도 shared memory 개념을 사용한다.  
 
-이 글은 공부한 내용을 정리한 내용으로 오류가 있을 수 있습니다. 오류가 있을 시 
+이 글은 공부한 내용을 정리한 내용으로 오류가 있을 수 있습니다. 오류가 있을 시 알려주세요~!
 
