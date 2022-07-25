@@ -56,6 +56,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "VoiceRecognition" %}
+                        <li><a href="/categories/#voicerecognition" class="nav__sub-title" style = "cursor:pointer;">Voice Recognition <br/> in RPI ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             
           <span class="nav__title">CS</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
