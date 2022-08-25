@@ -1,5 +1,5 @@
 ---
-title: "8 Virtual Memory Management"
+title: "8 File System"
 excerpt: "flat, 2 level, hierarchical, general graph"
 date: 2022-08-10
 categories:
